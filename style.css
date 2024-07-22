@@ -20,14 +20,36 @@ font-size: 18px;;}
     ; font-size:18px; font-family: Verdana, Geneva, Tahoma, sans-serif; 
     box-shadow: 2px 2px 2px black; padding:8px; border-radius: 4px;
 white-space: nowrap;} 
-.btn:hover{ background-color: rgb(180, 241, 243); 
+.btn:hover{background:linear-gradient( white, rgb(177, 253, 253)); 
     text-decoration: none;
      font-weight :bolder; 
     color: rgb(12, 13, 14); 
     ; padding: 15px; width:auto; 
     ; transition-duration: 0.4s; border-radius: 4px;
     position:relative; font-family: Verdana, Geneva, Tahoma, sans-serif;}
-    .drp{ display:none;}}
+    .drp{ display:none;}
+
+/* content start from here */
+.services{margin: 100px 10px; width: max-content; height: max-content; display: inline-block;}
+.srvc-sub1{margin-top: 10px;
+    padding: 5px 4px 0 4px;
+    line-height: 30px;
+border:dashed 1px;
+width: 400px; 
+height: max-content;
+text-align: justify;
+text-align: center;}
+.q-icon{margin: 0 25%;}
+a {text-decoration: none;
+color: black;}
+.os{width: max-content; color:black; text-shadow: 1px 1px 5px rgb(190, 243, 243) ; font-size: 20px;}
+.srvc-sub1:hover{background:linear-gradient( white, rgb(177, 253, 253)); padding: 2px;}
+
+
+
+
+
+}
 
 
 @media screen and (max-width: 799px) 
