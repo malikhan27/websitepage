@@ -30,6 +30,7 @@ white-space: nowrap;}
     .drp{ display:none;}
 
 /* content start from here */
+.main-con{width: max-content; margin: 0 auto;}
 .services{margin: 100px 10px; width: max-content; height: max-content; display: inline-block;}
 .srvc-sub1{margin-top: 10px;
     padding: 5px 4px 0 4px;
@@ -95,7 +96,7 @@ background-color:rgb(228, 248, 248);}
 
 .drp:hover .drpcon{  transition-duration: 0.2s ; display:block;} 
 }
-.drp button:hover{transition-duration: 0.2s; background-color: rgb(201, 250, 253);}
+.drp button:hover{transition-duration: 0.2s; background:linear-gradient( white, rgb(177, 253, 253));}
 
 
 
