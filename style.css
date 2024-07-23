@@ -1,12 +1,12 @@
 @media screen and (min-width:800px) 
-{body{background-color: rgb(228, 248, 248);}
-img{vertical-align:middle; margin-right:20px;}
+{body{background:linear-gradient( rgb(203, 245, 245) ,white );}
+img{vertical-align:middle; margin-right:40px;}
 .div1{margin: 0% 15% 0% 15% ;
 box-shadow: 4px 2px 2px 2px rgb(8, 8, 8) ;
 border-radius: 15px; }
 .heading{margin-right:30px;}
 .div2{width: auto;text-align: center; color: rgb(14, 13, 13); 
-    background-color:   rgb(228, 248, 248) ; 
+    background:linear-gradient( white, rgb(177, 253, 253)) ; 
     padding:2px 10px 2px 10px;
 text-shadow: 2px 2px 4px rgb(13, 12, 19)  ; 
 word-spacing: 20px;; border-radius: 15px; ;
@@ -30,8 +30,9 @@ white-space: nowrap;}
     .drp{ display:none;}
 
 /* content start from here */
-.main-con{width: max-content; margin: 0 auto;}
-.services{margin: 100px 10px; width: max-content; height: max-content; display: inline-block;}
+.os{width:max-content; color:black; text-shadow: 1px 1px 5px rgb(190, 243, 243) ; font-size: 20px; margin: 100px auto 0 auto;}
+.main-con{width: max-content; margin: 0 auto; display: flex; flex-direction: row;}
+.services{margin: 20px 10px; width: max-content; height: max-content;;}
 .srvc-sub1{margin-top: 10px;
     padding: 5px 4px 0 4px;
     line-height: 30px;
@@ -43,7 +44,6 @@ text-align: center;}
 .q-icon{margin: 0 25%;}
 a {text-decoration: none;
 color: black;}
-.os{width: max-content; color:black; text-shadow: 1px 1px 5px rgb(190, 243, 243) ; font-size: 20px;}
 .srvc-sub1:hover{background:linear-gradient( white, rgb(177, 253, 253)); padding: 2px;}
 
 
@@ -57,12 +57,11 @@ color: black;}
 {body{background-color: rgb(228, 248, 248);}
     img{vertical-align:middle; margin-right:20px;}
     .div1{margin: auto;
-    box-shadow: 4px 2px 2px 2px rgb(8, 8, 8) ;
-    border-radius: 15px; ;
- width: 300px;}
+    box-shadow: 4px 2px 6px  rgb(17, 26, 19) ;
+    border-radius: 15px; ;}
     .heading{margin-right:30px;}
     .div2{text-align: center; color: rgb(14, 13, 13); 
-        background-color:   rgb(228, 248, 248) ; 
+        background:linear-gradient( white, rgb(177, 253, 253)); 
         padding:2px 5px 2px;
     text-shadow: 2px 2px 4px rgb(13, 12, 19)  ; 
     word-spacing: 10px;; border-radius: 15px; ;
@@ -71,32 +70,50 @@ color: black;}
 }
     .div3{display: none;}
    
-    .drp{ display: inline-block;}
+    .drp{ display: block; width: max-content; margin: 0 auto;}
    
     .button{ font-weight: bolder; font: size 5px;
          font-family:'Lucida Sans', 'Lucida Sans Regular'; text-align: center ; 
-        box-shadow: 2px 2px 2px black; padding:15px; border-radius: 5px; 
-        width: 175px;  background-color:rgb(228, 248, 248); margin: 20px 0 0 120px ; }
+        box-shadow: 2px 2px 6px rgb(17, 26, 37); padding:15px; border-radius: 5px; 
+        width: 200px;  background-color:rgb(228, 248, 248); margin: 30px auto ; }
   
     .drpcon{  display: none;
-    position:fixed;
     background-color: rgb(228, 248, 248);
-    width: 250px;
+    width: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     text-align: center;
-    margin: 10px 90px;
+    margin: 5px auto;
   }
   .drpcon a { color: black;
+    position: relative;
     padding: 14px 16px;
     text-decoration: none;
     display: block;
 background-color:rgb(228, 248, 248);}
-.drpcon a:hover{ background-color: rgb(81, 100, 100); color: antiquewhite;}
+.drpcon a:hover{ background-color: rgb(17, 182, 247); color: rgb(7, 7, 7);}
 
-.drp:hover .drpcon{  transition-duration: 0.2s ; display:block;} 
-}
+.drp:hover .drpcon{  transition-duration: 0.4s ; display:block;} 
 .drp button:hover{transition-duration: 0.2s; background:linear-gradient( white, rgb(177, 253, 253));}
+
+/* content starts from here*/
+.main-con{margin: 2px auto; width: max-content; display: flex; flex-direction: column;}
+    .services{width: max-content;}
+    .srvc-sub1{margin-top: 10px;
+        padding: 4px 4px 0 4px;
+        line-height: 30px;
+    border:dashed 1px;
+    width: 350px; 
+    height: max-content;
+text-align: justify;
+text-align: center;;}
+.q-icon{margin: 0 25%;}
+a {text-decoration: none;
+color: black;}
+.os{width: max-content; color:black; text-shadow: 1px 1px 5px rgb(190, 243, 243) ; font-size: 15px; margin: 50px auto 0 auto;}
+.srvc-sub1:hover{background:linear-gradient( white, rgb(177, 253, 253)); padding: 2px;}  
+ }
+
 
 
 
