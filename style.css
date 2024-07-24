@@ -1,7 +1,7 @@
 @media screen and (min-width:800px) 
 {
 *{font-family: Verdana, Geneva, Tahoma, sans-serif;}
-body{background-color: beige; padding: 2px;}
+body{background-color: rgb(255, 255, 255); padding: 2px;}
 .main{display: flex; flex-direction: row; }
 #pre{ font-size: 35px; font-weight: bolder ; letter-spacing: 2px ; 
     font-family:Georgia, 'Times New Roman', Times, serif; margin: 20px 0 0 20px;}
