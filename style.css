@@ -2,7 +2,8 @@
 {
 *{font-family: Verdana, Geneva, Tahoma, sans-serif;}
 body{background-color: rgb(255, 255, 255); padding: 2px;}
-.main{display: flex; flex-direction: row; }
+.main{display: flex; flex-direction: row; width: 100%;}
+.logo{ width: 70px; height: 70px;}
 #pre{ font-size: 35px; font-weight: bolder ; letter-spacing: 2px ; 
     font-family:Georgia, 'Times New Roman', Times, serif; margin: 20px 0 0 20px;}
 #pre::first-letter{color: darkturquoise; font-size: 50px;text-shadow:  2px 4px 8px #010116}
@@ -16,8 +17,9 @@ body{background-color: rgb(255, 255, 255); padding: 2px;}
 flex-direction: column;
 align-items: center;
 justify-items: center;
-width:100%; height: 100;
-font-size: 30px;}
+width:100%; height: 100%;
+font-size: 30px;
+flex-wrap: wrap;}
 .p1{text-align: justify; font-size: 25px;
 text-align: center;
 margin-top: 50PX;
@@ -52,6 +54,41 @@ color: black;}
 .srvc-sub1:hover{background:linear-gradient( rgb(148, 218, 240) ,white 50% ); padding: 2px;}
 }
 
+/* mobile screen */
+@media screen and (max-width:799px) 
+{
+*{font-family: Verdana, Geneva, Tahoma, sans-serif;}
+.logo{ width: 40px; height: 40px;}
+body{background-color: rgb(255, 255, 255); padding: 2px;}
+.main{float: left; }
+#pre{ font-size: 10px; font-weight: bolder ; letter-spacing: 1px ; 
+    font-family:Georgia, 'Times New Roman', Times, serif; margin:20px 0 0 5px; 
+float: right;}
+#pre::first-letter{color: darkturquoise; font-size: 20px;text-shadow:  2px 4px 5px #010116}
+.div3{display: none;}
+.drp{display: inline-block; position: absolute; margin: 15px 0 0 60px;}
+
+.drp-con{display: none;
+position: absolute;
+width: 240px;
+height: 100px;
+z-index: 1;
+box-shadow: 2px 8px 16px  rgba(0,0,0,0.2);
+margin-right: auto;
+text-align: center;}
+
+.drp-con a{ text-decoration: none; color: #010116;
+background-color: white;
+padding: 16px 12px;
+border-bottom: 1px solid;
+display: block;
+margin-right: 50px;}
+.drp-con a:hover{background: linear-gradient( rgb(44, 224, 236),white 50% )}
+.drp1{width: max-content;}
+.drp1:hover .drp-con{ display: block;}
+.button{ background-color: white; padding:3px 20px; border-radius: 10px; }
+.button:hover{padding: 3px 22px; background: linear-gradient( rgb(44, 224, 236),white );}
+}
 
 
 
