@@ -1,119 +1,259 @@
-@media screen and (min-width:800px) 
-{
-*{font-family: Verdana, Geneva, Tahoma, sans-serif;}
-body{background-color: rgb(255, 255, 255); padding: 2px;}
-.main{display: flex; flex-direction: row; width: 100%;}
-.logo{ width: 70px; height: 70px;}
-#pre{ font-size: 35px; font-weight: bolder ; letter-spacing: 2px ; 
-    font-family:Georgia, 'Times New Roman', Times, serif; margin: 20px 0 0 20px;}
-#pre::first-letter{color: darkturquoise; font-size: 50px;text-shadow:  2px 4px 8px #010116}
-.div2{display: flex; flex-direction: row;}
-.div3{display: flex; flex-direction: row; margin: 10px auto; height: auto; }
-.mrg1{ margin-left: 10%; white-space:nowrap; width: max-content; height: max-content;padding-right: 15px;}
-.video{margin: 70px auto 0 auto;; width: 100%; height: 100%; position: relative;}
-.video1{display: block; margin: 10px auto 0 auto;  opacity: 0.5 ; width: 100%; height: 100%;} 
-.video-message{ position: absolute; top: 0; left: 0;
-    display: flex;
-flex-direction: column;
-align-items: center;
-justify-items: center;
-width:100%; height: 100%;
-font-size: 30px;
-flex-wrap: wrap;}
-.p1{text-align: justify; font-size: 25px;
-text-align: center;
-margin-top: 50PX;
-height: max-content;}
+@media screen and (min-width:800px) {
+    * {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
 
-/* content start from here */
-.os{width:20%; ; ;
-     font-size: 20px; margin: 20px 0 0 0;
-    ; text-align: center;
-    padding: 1px;}
-.os::first-letter{font-size: 40PX;}
-.main-con{width: max-content; margin: 0 auto; display: flex; flex-direction: row;
-     background-color: rgba(124, 123, 123, 0.1);}
-.services{margin: 20px 10px; width: max-content; height: max-content;
-;}
-.srvc-sub1{
-margin-top: 10px;
-padding: 5px 4px 0 4px;
-line-height: 30px;
-border:dashed 2px #010116
-;
-width: 400px; 
-height: 460px;
-text-align: justify;
-overflow: hidden;
-text-align: center;}
-.q-icon{margin: 0 25%;;}
-a {text-decoration: none;    
-color: black;}
-.subhed{letter-spacing: 1px;}
-.subhed::first-letter{font-size: 40px }
-.srvc-sub1:hover{background:linear-gradient( rgb(148, 218, 240) ,white 50% ); padding: 2px;}
+    body {
+        background-color: rgb(255, 255, 255);
+        padding: 2px;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .div3{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        width: 70px;
+        height: 70px;
+    }
+
+    #pre {
+        font-size: 35px;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 20px 0 0 20px;
+    }
+
+    #pre::first-letter {
+        color: darkturquoise;
+        font-size: 50px;
+        text-shadow: 2px 4px 8px #010116
+    }
+
+    .div2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .div3 {
+        display: flex;
+        flex-direction: row;
+        margin: 10px auto;
+        height: auto;
+    }
+
+    .mrg1 {
+        margin-left: 20px;
+        white-space: nowrap;
+        width: max-content;
+        height: max-content;
+        padding-right: 15px;
+    }
+
+    .video {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 70px auto 0 auto;
+        ;
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+    .video1 {
+        display: flex;
+        margin: 10px auto 0 auto;
+        opacity: 0.5;
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;    
+    }
+
+    .video-message {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        font-size: 20px;
+        flex-wrap: wrap;
+    }
+
+    .p1 {
+        text-align: justify;
+        font-size: 20px;
+        text-align: center;
+        margin: 30px;
+        height: max-content;
+    }
+
+    /* content start from here */
+    .os {
+        width: 20%;
+        font-size: 20px;
+        margin: 20px 0 0 0;
+        text-align: center;
+        padding: 1px;
+    }
+
+    .os::first-letter {
+        font-size: 40PX;
+    }
+
+    .main-con {
+        width: max-content;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(124, 123, 123, 0.1);
+    }
+
+    .services {
+        margin: 20px 10px;
+        width: max-content;
+        height: max-content;
+        ;
+    }
+
+    .srvc-sub1 {
+        margin-top: 10px;
+        padding: 5px 4px 0 4px;
+        line-height: 30px;
+        border: dashed 2px #010116;
+        width: 400px;
+        height: 460px;
+        text-align: justify;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .q-icon {
+        margin: 0 25%;
+        ;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .subhed {
+        letter-spacing: 1px;
+    }
+
+    .subhed::first-letter {
+        font-size: 40px
+    }
+
+    .srvc-sub1:hover {
+        background: linear-gradient(rgb(148, 218, 240), white 50%);
+        padding: 2px;
+    }
+
+    .drp{
+        display: none;
+    }
 }
 
 /* mobile screen */
-@media screen and (max-width:799px) 
-{
-*{font-family: Verdana, Geneva, Tahoma, sans-serif;}
-.logo{ width: 40px; height: 40px;}
-body{background-color: rgb(255, 255, 255); padding: 2px;}
-.main{float: left; }
-#pre{ font-size: 10px; font-weight: bolder ; letter-spacing: 1px ; 
-    font-family:Georgia, 'Times New Roman', Times, serif; margin:20px 0 0 5px; 
-float: right;}
-#pre::first-letter{color: darkturquoise; font-size: 20px;text-shadow:  2px 4px 5px #010116}
-.div3{display: none;}
-.drp{display: inline-block; position: absolute; margin: 15px 0 0 60px;}
+@media screen and (max-width:799px) {
+    * {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
 
-.drp-con{display: none;
-position: absolute;
-width: 240px;
-height: 100px;
-z-index: 1;
-box-shadow: 2px 8px 16px  rgba(0,0,0,0.2);
-margin-right: auto;
-text-align: center;}
+    .logo {
+        width: 40px;
+        height: 40px;
+    }
 
-.drp-con a{ text-decoration: none; color: #010116;
-background-color: white;
-padding: 16px 12px;
-border-bottom: 1px solid;
-display: block;
-margin-right: 50px;}
-.drp-con a:hover{background: linear-gradient( rgb(44, 224, 236),white 50% )}
-.drp1{width: max-content;}
-.drp1:hover .drp-con{ display: block;}
-.button{ background-color: white; padding:3px 20px; border-radius: 10px; }
-.button:hover{padding: 3px 22px; background: linear-gradient( rgb(44, 224, 236),white );}
+    body {
+        background-color: rgb(255, 255, 255);
+        padding: 2px;
+    }
+
+    .main {
+        float: left;
+    }
+
+    #pre {
+        font-size: 10px;
+        font-weight: bolder;
+        letter-spacing: 1px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 20px 0 0 5px;
+        float: right;
+    }
+
+    #pre::first-letter {
+        color: darkturquoise;
+        font-size: 20px;
+        text-shadow: 2px 4px 5px #010116
+    }
+
+    .div3 {
+        display: none;
+    }
+
+    .drp {
+        display: inline-block;
+        position: absolute;
+        margin: 15px 0 0 60px;
+    }
+
+    .drp-con {
+        display: none;
+        position: absolute;
+        width: 240px;
+        height: 100px;
+        z-index: 1;
+        box-shadow: 2px 8px 16px rgba(0, 0, 0, 0.2);
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .drp-con a {
+        text-decoration: none;
+        color: #010116;
+        background-color: white;
+        padding: 16px 12px;
+        border-bottom: 1px solid;
+        display: block;
+        margin-right: 50px;
+    }
+
+    .drp-con a:hover {
+        background: linear-gradient(rgb(44, 224, 236), white 50%)
+    }
+
+    .drp1 {
+        width: max-content;
+    }
+
+    .drp1:hover .drp-con {
+        display: block;
+    }
+
+    .button {
+        background-color: white;
+        padding: 3px 20px;
+        border-radius: 10px;
+    }
+
+    .button:hover {
+        padding: 3px 22px;
+        background: linear-gradient(rgb(44, 224, 236), white);
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
