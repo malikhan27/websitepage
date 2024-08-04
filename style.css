@@ -1,4 +1,4 @@
-@media screen and (min-width:800px) {
+
     * {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
@@ -42,6 +42,7 @@
     .div2 {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .div3 {
@@ -49,6 +50,7 @@
         flex-direction: row;
         margin: 10px auto;
         height: auto;
+        flex-wrap: wrap;
     }
 
     .mrg1 {
@@ -59,6 +61,8 @@
         padding-right: 15px;
     }
 
+@media only screen and (min-width: 700px) {
+
     .video {
         display: flex;
         flex-wrap: wrap;
@@ -67,17 +71,10 @@
         width: 100%;
         height: 100%;
         position: relative;
+        object-fit: cover;
     }
 
-    .video1 {
-        display: flex;
-        margin: 10px auto 0 auto;
-        opacity: 0.5;
-        width: 100%;
-        height: 100%;
-        flex-wrap: wrap;    
-    }
-
+        
     .video-message {
         position: absolute;
         top: 0;
@@ -96,9 +93,65 @@
         text-align: justify;
         font-size: 20px;
         text-align: center;
-        margin: 30px;
         height: max-content;
     }
+
+    
+}
+
+
+@media screen and (min-width: 514px) and (max-width:699px) 
+{
+    .video {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 70px auto 0 auto;
+        ;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        object-fit: cover;
+    }
+
+        
+    .video-message {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .p1 {
+        text-align: justify;
+        font-size: 15px;
+        text-align: center;
+        height: max-content;
+    }
+
+    
+
+}
+
+
+
+    .video1 {
+        display: flex;
+        margin: 10px auto 0 auto;
+        opacity: 0.5;
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;    
+    }
+
+
+    
 
     /* content start from here */
     .os {
@@ -114,34 +167,38 @@
     }
 
     .main-con {
-        width: max-content;
-        margin: 0 auto;
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
         background-color: rgba(124, 123, 123, 0.1);
     }
 
     .services {
+        display: flex;
         margin: 20px 10px;
-        width: max-content;
-        height: max-content;
+        flex-direction: column;
+        align-items: center;
         ;
     }
 
     .srvc-sub1 {
-        margin-top: 10px;
-        padding: 5px 4px 0 4px;
-        line-height: 30px;
+        
         border: dashed 2px #010116;
-        width: 400px;
-        height: 460px;
+        margin-top: 10px;
+        line-height: 30px;
         text-align: justify;
-        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         text-align: center;
+        flex-wrap: wrap;
+        padding: 5px;
     }
 
     .q-icon {
-        margin: 0 25%;
+        margin: 10px;
         ;
     }
 
@@ -166,10 +223,10 @@
     .drp{
         display: none;
     }
-}
+
 
 /* mobile screen */
-@media screen and (max-width:799px) {
+@media screen and (max-width:513px)  {
     * {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
@@ -207,11 +264,51 @@
         display: none;
     }
 
-    .drp {
-        display: inline-block;
-        position: absolute;
-        margin: 15px 0 0 60px;
+    .video {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 70px auto 0 auto;
+        ;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        object-fit: cover;
     }
+
+        
+    .video-message {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 10px;
+        text-align: center;
+        text-align: justify;
+    }
+
+    .p1 {
+        text-align: justify;
+        font-size: 10px;
+        text-align: center;
+        height: max-content;
+    }
+
+
+
+
+    .drp {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
 
     .drp-con {
         display: none;
@@ -243,7 +340,10 @@
     }
 
     .drp1:hover .drp-con {
-        display: block;
+        display: flex;
+        position: absolute;
+        right: 10px;
+        flex-direction: column;
     }
 
     .button {
