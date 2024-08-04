@@ -62,6 +62,22 @@
     }
 
 @media only screen and (min-width: 700px) {
+    .srvc-sub1 {
+        
+        border: dashed 2px #010116;
+        margin-top: 10px;
+        line-height: 30px;
+        text-align: justify;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        padding: 5px;
+        width: 500px;
+        height: 500px;
+        overflow: hidden;;
+    }
 
     .video {
         display: flex;
@@ -134,7 +150,22 @@
         text-align: center;
         height: max-content;
     }
-
+    .srvc-sub1 {
+        
+        border: dashed 2px #010116;
+        margin-top: 10px;
+        line-height: 30px;
+        text-align: justify;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        padding: 5px;
+        width: 500px;
+        height: 500px;
+        overflow: hidden;;
+    }
     
 
 }
@@ -182,20 +213,7 @@
         ;
     }
 
-    .srvc-sub1 {
-        
-        border: dashed 2px #010116;
-        margin-top: 10px;
-        line-height: 30px;
-        text-align: justify;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        flex-wrap: wrap;
-        padding: 5px;
-    }
+   
 
     .q-icon {
         margin: 10px;
@@ -299,7 +317,20 @@
         height: max-content;
     }
 
-
+    .srvc-sub1 {
+        
+        border: dashed 2px #010116;
+        margin-top: 10px;
+        line-height: 30px;
+        text-align: justify;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        padding: 5px;
+        overflow: hidden;;
+    }
 
 
     .drp {
