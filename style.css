@@ -62,13 +62,25 @@
     }
 
 @media only screen and (min-width: 700px) {
+    .os {
+        width: 20%;
+        font-size: 20px;
+        margin: 20px ;
+        text-align: center;
+        padding: 1px;
+    }
+
+    .os::first-letter {
+        font-size: 40PX;
+    }
+
+
     .srvc-sub1 {
         
         border: dashed 2px #010116;
         margin-top: 10px;
         line-height: 30px;
         text-align: justify;
-        display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -129,6 +141,21 @@
         object-fit: cover;
     }
 
+
+    .os {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 20px;
+        margin: auto;
+        text-align: center;
+        white-space: nowrap;
+    }
+
+    .os::first-letter {
+        font-size: 40PX;
+    }
         
     .video-message {
         position: absolute;
@@ -185,24 +212,14 @@
     
 
     /* content start from here */
-    .os {
-        width: 20%;
-        font-size: 20px;
-        margin: 20px 0 0 0;
-        text-align: center;
-        padding: 1px;
-    }
-
-    .os::first-letter {
-        font-size: 40PX;
-    }
+    
 
     .main-con {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        background-color: rgba(124, 123, 123, 0.1);
+        background-color: rgb(255, 255, 255);
     }
 
     .services {
@@ -257,6 +274,22 @@
     body {
         background-color: rgb(255, 255, 255);
         padding: 2px;
+    }
+
+    .os {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 20px;
+        margin: 10px auto;
+        text-align: center;
+        padding: 1px;
+        white-space: nowrap;
+    }
+
+    .os::first-letter {
+        font-size: 40PX;
     }
 
     .main {
