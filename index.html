@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>THIFL ACADEMY</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
      <div class="main">
@@ -38,7 +39,11 @@
 
 
 
-     <div  class="video">
+     <div class="video"  data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"
+     data-aos-duration="2500" 
+     > 
      <video class="video1" autoplay muted loop src="assets/video/8165468-sd_640_360_25fps.mp4"></video>
      <div class="video-message">
         <h3>Under The Management of SCHOLAR ABU YOUSHAA</h3>
@@ -58,7 +63,10 @@
     <div class="main-con">
      <div class="services">
          <a href="">
-         <div class="srvc-sub1">
+         <div class="srvc-sub1"
+         data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
           <img class="q-icon" height="50px" width="50px" src="assets/quran-icon-png-1.png" alt="">
           <h3 class="subhed">QURAN</h3>
           <p>Comprehensive program to understand the Quran's teachings and wisdom
@@ -71,7 +79,10 @@
    </div>
 
 
-   <div class="services">
+   <div class="services"
+   data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
         <a href="">
         <div class="srvc-sub1">
          <img class="q-icon" height="50px" width="50px" src="assets/5583403-200.png" alt="">
@@ -91,7 +102,10 @@
 
   <div class="services">
     <a href="">
-    <div class="srvc-sub1">
+    <div class="srvc-sub1"
+    data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
      <img class="q-icon" height="50px" width="50px" src="assets/2033528-200.png" alt="">
      <h3  class="subhed">COUNSELLING</h3>
      </p>Islamic Counselling
@@ -100,11 +114,13 @@
      Integrates faith and psychology: Combining Islamic teachings with psychological insights to address various issues.
      Fosters spiritual growth: Encouraging a deeper connection with Allah and a stronger sense of purpose.
      Promotes self-reflection: Helping individuals explore their thoughts, feelings, and actions in light of Islamic teachings.
-     Encourages personal responsibility: Empowering individuals to make positive changes and take ownership of their lives.
-     Provides guidance and support: Offering a safe, non-judgmental space to navigate life's challenges with an Islamic perspective.    </p>
+    </p>
 </div>
 </div>
 
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+   AOS.init();
+ </script>
 </body>
 </html>

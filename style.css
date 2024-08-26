@@ -4,7 +4,7 @@
     }
 
     body {
-        background-color: rgb(255, 255, 255);
+
         padding: 2px;
     }
 
@@ -218,7 +218,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        background-color: rgb(255, 255, 255);
+      
     }
 
     .services {
